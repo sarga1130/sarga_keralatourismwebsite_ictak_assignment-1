@@ -1,0 +1,290 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+/* home */
+body{
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* /body */
+
+/* header */
+header{
+    background-color: dodgerblue;
+    height : 4em;
+}
+.header-tag{
+    float : right;
+    margin-right: 55px;
+    margin-top: 20px;
+} 
+.header-tag a{
+    color : white;
+    padding : 10px;
+
+}
+ .header-tag a:hover{
+    color : palevioletred;
+    text-decoration: none;
+}
+img{
+    inline-size : 47pt;
+    margin-left: 2%;
+    margin-top : 0.20px;
+    margin-bottom: 50px;
+}
+/* /header */
+
+/* body */
+.aside h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    margin-top: 5%;
+}
+.aside h3{
+    margin-left: 70px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-left: 7%;
+    text-align: left;
+    margin-top: -0.9%;
+}
+/* /body */
+
+/* signup */
+#signup{
+    /* text-align: center; */
+    /* float: center; */
+    border:5px solid white ;
+    /* background-color: white; */
+    height:40em;
+    margin-top: 5%;
+    margin-bottom: 70%;
+    margin-right: 35%;
+    color: black;
+    margin-left: 35%;
+    padding: 30px;
+    
+}
+.h2{
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.signupp input{
+    float: right;
+    height:1.5em;
+    font-size: 100%;
+}
+.but{
+    width:100%;
+    height: 3em;
+    float:left;
+}
+
+.but :hover{
+    background-color: blue;
+    color: cornsilk;
+}
+
+   
+/* /signup */
+
+/* login */
+.signin{
+    float: center;
+    /* border:5px solid greenyellow ; */
+    /* background-color: white; */
+    height:32em;
+    margin-top: 5%;
+    margin-bottom: 70%;
+    margin-right: 38%;
+    margin-left: 38%;
+    padding: 30px;
+}
+.sb{
+    color: black;
+}
+/* /login */
+
+/* dlist */
+.h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+    text-align: center;
+}
+
+.container{
+    /* border: 2px solid black; */
+    margin-top:7%
+    margin-left: 3%;
+}
+.h4{
+    color: green;
+}
+.p-box{
+    border:3px solid white;
+    width:22%;
+    float: left;
+    margin-left: 10px;
+    height: 15em;
+    color:black;
+    padding:5px;
+
+    }
+    .p-box h3{
+        text-align: center;
+        text-transform: uppercase;
+        color: rebeccapurple;
+    }
+    .p-box h3:hover{
+        color: orange;
+    }
+    .p-box img{
+        border: 1px solid blue;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+        width: 80%;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    } 
+  .p-box a{
+      text-decoration: none;
+      color: red;
+  }
+  .p-box a:hover{
+      color: blue;
+      text-decoration: none;
+  }
+  .dparagrapg{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 17px;
+}
+ /* /dlist */
+
+ /* dpage */
+
+ .holder{
+     margin-top: 1%;
+     margin-bottom: 20%;
+ }
+
+ 
+
+.d-box{
+  border:3px solid white;
+  widows: 80%;
+  font-size: 100%;
+  text-align: justify;
+  float: left;
+  margin-left: 13px;
+  margin-right: 30px;
+  height: 15em;
+  color:black;
+  padding:5px;
+  }
+
+  .d-box ddetails{
+      text-align: justify;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      margin-left: 2%;
+      margin-right: 55%;
+      font-size: 17px;
+  }
+    
+
+.d-box img{
+      border-radius: 8px; 
+      width: 100;
+      height: 380px;
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      /* display: block; */
+   
+   border: 1px solid brown;
+   border-radius: 4px;
+   padding: 5px;
+   width: 150px;
+}
+*{
+  box-sizing: border-box;
+
+}
+
+.s-box{
+  border:3px solid white;
+  width:30%;
+  float: left;
+  margin-left: 10px;
+  height: 15em;
+  color:black;
+  padding: 8px;
+
+  }
+  .s-box h3{
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 17px;
+  }
+  .s-box img{
+      border-radius: 8PX;
+      width: 80%;
+      height: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  } 
+.s-box a{
+    text-decoration: none;
+    color: red;
+}
+.s-box a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.aboutus{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dtlabout{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: justify;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+.dref{
+    list-style-type: square;
+    list-style: square;
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* footer */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4%;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-align: center;
+}
+
+/* /footer */

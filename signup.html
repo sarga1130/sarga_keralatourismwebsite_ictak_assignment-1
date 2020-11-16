@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body background ="images\THome3.jpg">
+    <!-- HEADER -->
+    <header>
+        <img src="images\Tlogo.jpg" alt="logo">
+<div class = "header-tag">
+    <a href="index.html">HOME</a>
+    <a href="login.html">LOG IN</a>
+    <a href="signup.html">SIGN UP</a>
+    <a href="districts.html">DISTRICTS</a>
+    <a href="aboutus.html">ABOUT US</a>
+</div>
+    </header>
+   <!-- HEADER -->
+   
+
+   <!--SIGN UP -->
+    
+    <form action="#" id="signup" name="myform" onsubmit="return vform()">
+        <h2 class="h2"><b>SIGN UP</b></h2>
+        <br>
+        <div class="signupp">
+            <b><label for="name1">Name:</label></b>
+            <!-- <br> -->
+            <input id="name1" type="text" name="name"><label id="lb1"></label>
+        </div>
+        <label for="error" id="error"></label>
+        
+
+        <div class="signupp">
+            <b><label for="country1">Country: </label></b>
+            <!-- <br> -->
+            <input id="country1" type="tel" name="country"><label id="lb2"></label>
+        </div>
+        <br>
+
+        <div class="signupp"> 
+            <b><label for="tel1">Mobile: </label></b>
+            <!-- <br> -->
+            <input id="tel1" type="tel" name="tel"><label id="lb3"></label>
+        </div>
+        <br>
+
+        <div class="signupp">
+           <b><label for="email1">Email:</label></b> 
+            <!-- <br> -->
+            <input id="email1" type="email" name="email"><label id="lb4"></label>
+        </div>
+        <br>
+
+        <div class="signupp">
+           <b><label for="pswd1">Password: </label></b> 
+
+            <input id="pswd1" type="password" name="pswd" onkeyup="return passpow()"><label id="lb5"></label>
+            <br>
+            <label id="i"><i>Minimum 8 characters,One uppercase,lowercase and special character must include.</i></label>
+        </div>
+        <br>
+
+        <!-- <p>By creating an account you agree to our Terms and Privacy. </p> -->
+ 
+        <div class="but">
+           <button type="submit">Submit</button> <br>
+        </div>
+        </form>
+    <!-- /SIGNUP -->
+
+    <!--FOOTER  -->
+    <footer>
+        <h6>Copyright@2020</h6>
+      </footer>
+      <!-- /FOOTER -->
+      <script src="signup.js"></script>
+</body>
+</html>
